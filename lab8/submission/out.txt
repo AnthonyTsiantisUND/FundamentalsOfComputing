@@ -1,0 +1,57 @@
+Crossword Game: 
+
+Solution board:
+-----------------
+|..........C....|
+|......KEYBOARD.|
+|..........M....|
+|.......LOOP....|
+|...P......U....|
+|...R.N....T....|
+|...O.O.U..E.C..|
+|.FIGHTINGIRISH.|
+|.U.R.R.D....E..|
+|.N.A.E.........|
+|.C.M.D.........|
+|.T.M.A.........|
+|.I.I.M.........|
+|.O.N.E.........|
+|.N.G...........|
+-----------------
+
+
+Crossword board:
+-----------------
+|########## ####|
+|######        #|
+|########## ####|
+|#######    ####|
+|### ###### ####|
+|### # #### ####|
+|### # # ## # ##|
+|#             #|
+|# # # # #### ##|
+|# # # #########|
+|# # # #########|
+|# # # #########|
+|# # # #########|
+|# # # #########|
+|# # ###########|
+-----------------
+
+Clues:
+*Board range 0-14
+Coordinate (x, y) | Direction | Scambled String
+
+7, 1 | Across | STHIFGRINIGHI
+4, 3 | Down | GRNPGAOMRMI
+5, 5 | Down | NTEEMDRAO
+0, 10 | Down | MCERUOPT
+1, 6 | Across | YOBKDARE
+7, 1 | Down | INNTUOCF
+3, 7 | Across | LOPO
+6, 12 | Down | CSE
+6, 7 | Down | UDN
+Skipped the word CODE
+Skipped the word NOT
+Skipped the word IF

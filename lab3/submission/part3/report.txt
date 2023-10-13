@@ -1,0 +1,13 @@
+Anthony Tsiantis
+report.txt
+
+1. How calculator works from the user perspective.
+The user will be shown a menu selection of different numerical inputs corresponding to different mathematical operations. Once the user enters a valid numerical selection, they will be prompted for two numbers. Once the user has entered two numbers, the program will output the operation performed on those two numbers. 
+
+
+2. How the program works internally.
+The program uses three functions and a while loop to accomplish this. Firstly, the program will print the menu then prompt the user to preform an operation. Following this, the program will verify the operation. The program uses an infinite while loop to validate this input. Follwoing this, the program prompts the user for two numbers. Once the user has entered the two numbers, the program will calculate and output the corresponding operation on the two numbers. Both getting the operation and calculating and outputing the numbers are achieved using functions. 
+
+
+3. How I verified that the output of the program is correct. 
+I verified this program by first inputting invalid operations and making sure that the program rejects it. Secondly, I verified the arithmetic by entering numerical values and calculating them by hand. Finally, I tested the division by zero error by entering 0 as the second number and making sure the program caught it. 

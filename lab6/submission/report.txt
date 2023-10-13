@@ -1,0 +1,23 @@
+Anthony Tsiantis
+Fundamentals of Computing
+report.txt
+
+1. How the program works from the user perspective?
+As outlined in the lab, there are two modes interactive and batch. Interactive mode is entered by running the executable without any addiontal filename arguments in the command line. Batch mode provides a filename in the command line argument. When the user runs interactive mode, they enter commands to modify the board. 'a' followed by two integers brings life to a cell to the board at that coordinate. Similarly, 'r' followed by two integers kills a cell at that coordindate. 'n' advances the simulation by one generation or step. 'p' plays the game forever and 'q' quits the program. Furthermore, I have also implemented 'c' which clears the board of any live cells and 'h' which displays a help menu explaining what all the commands do and how to use them. Also, please be aware that my board is indexed from 1-40. So when you are in interactive mode,  (1 1) is the top left and (40 40) is the bottom right. However, batch mode is slightly different. In batch mode, (0 0) is the top left and (39 39) is the bottom right. In baatch mode, the program will add 1 to the coordinated to properly format it on the 1-40 board. 
+
+
+
+2. How the program works internally?
+The program uses several files to create this game. Firsly, playlife.c hosts the main function where file handling and verifying the correct arguments have been passes are. From here, the program will call on functions in lifefunc.c to handle the game logic. The prototypes for the main function in lifefunc.c are located in lifefunc.h which is included in playlife.c. lifefunc.c contains many functions that call one another to run the game. 
+
+
+
+3. How I verified that the output of the program is correct.
+To verify the output of the program is correct, I compared my game to the one Professor Ramzi shared with us in the public directory. Furthermore, I also compared my output to those online. I have linked the main site I used to check this was correct below. 
+
+
+
+4. Sources
+- I used the following source for inspiration on my scenes and also to verify that the output of the program is correct: 
+
+https://conwaylife.com/wiki/

@@ -1,0 +1,20 @@
+Anthony Tsiantis
+Fundamentals of Computing
+report.txt
+
+1. How does the program work from the user's perspective?
+The program first starts by asking the user for a file. If the file does not exist, the program will inform the user and terminate. The program will then output a menu to the user and await input. For each numeric input the user enters, the program will call a function that preforms that task. When the user enters 5, the program terminates.
+
+
+2. How does the program work internally?
+The program will first read the users input into a string called fileName. Following this, the program will attempt to create a connection to the file. If the file doesn't exist (file pointer is NULL), the program will terminate by returning -1. The program then uses a function to load the data from the file into a 2D array. Following this, the program enters an infinite loop where the user is presented with a menu and asked from a selection. The selection is handled with a switch statement. Each case calls at least one function that preforms a task. The switch statement also handles invalid input. When the user chooses to quit, the switch statement will return 0 thus terminating the program. 
+
+
+
+
+3. How did I verify that the output of the program is correct?
+I verified that the output of the program was correct by selecting each value in the menu and making sure that the output of that value was correct. Sometimes, this required me to terminate the program and make sure the file was created. 
+
+
+
+

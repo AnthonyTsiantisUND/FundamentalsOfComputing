@@ -1,0 +1,12 @@
+Anthony Tsiantis
+Fundamentals of Computing
+report.txt
+
+1. How the program works from the user perspective.
+The program prompts the user for a filename. Once the user enters a valid filename, they are presented with a menu of options. The user can select a menu option by entering the corresponding number. Depending on the menu option selected, the program might prompt the user for either a state abbreviation or a year. The program will then display the user selection. 
+
+2. How the program works internally.
+The program has three files. The main file is usastates.c which is responsible for the main menu logic. usastates.c utilizes a switch statement to handle the menu selection. The usastates.c file then calls statesfunc.c which houses all the functions responsible for further implementing the menu options in usastates.c. Finally, the statesfunc.h file is a header file that is called in usastates.c and statesfunc.c. This header file houses the struct declarationa and the function prototypes. 
+
+3. How I verified that the output of the program was correct.
+I verified the output of the program was correct by selecting a menu option and verifiying that the output of that selction matched the data in the csv file.

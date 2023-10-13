@@ -1,0 +1,15 @@
+Anthony Tsiantis
+report.txt
+Fundementals of Computing
+
+
+1. How does the program from part 3 work, from the user perspective?
+The program will display a menu with 9 options. The user will enter an integer selection that corresponds to one of those nine options. The program will then execute and display the results of that function. Following this, the program will reprint the menuand reprompt the user for input.
+
+
+2. How the program works internally?
+The program utilizes an infinite loop and a switch statement to handle all the different menu options. For each case, a function is called that handels the logic and provides output for each menu option.
+
+3. How you verified that the output of the program is correct?
+I calculated the values by hand and/or used the wiki page to verify the output of each function. 
+

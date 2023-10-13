@@ -1,0 +1,16 @@
+Name: Anthony Tsiantis
+
+1. How does the program work from the users persepctive?
+The user will run the program with "./graph" (no quotations). When the program runs, it will first output the mathematical function and its range. Then, the program will output an x, y coordinate and an approximate height for the function. The program will start at the beginning of the range and end at the last range value in 0.2 value x increments. Also, in this program, the x axis vertical and the y axis is horizontal.
+
+
+2. How does the program work internally?
+Firstly, the program instantiates the variables necessary for the program to run. This includes the range min, range max and the min and max variables. Then, the program outputs the mathematical function, the range min and max and the column headers. Following this, the program iterates from range min to range max in 0.02 intervals using a for loop. In this for loop, the program will calculate the height of the function at that X value (X value is indicated by i in the for loop). Then, the program will compare the i to the range min. If i is equal to the range min then the function will populate the min and max variables in the beginning with the first data point. Through every iteration, the program will compare the y value to the previous min and max, if the current y value is greater than or less than either value than the program will update either the min or max value respectively. Also, throughout every iteration, the program will print the coordinates and an approximate height indicated by a hashtag "#". The approximate height is calculated by iterating in integer values from range min to the height of the function at that point. Finally, when the function has been outputted over its domain, the program will output the max and min of the function.
+
+
+3. How did I verify the output of the program?
+I verified the output of this program by first calculating the values of each X and Y value by hand. If they lined up with what was being displayed, the output was correct. Also, I looked at an image of the graph (with restricted domain) on desmos to verify that the program visually outputted the correct function. I also verified the max and min through desmos. 
+
+
+
+
